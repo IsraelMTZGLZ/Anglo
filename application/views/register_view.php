@@ -34,6 +34,7 @@
         </div>
     </section> -->
 
+
     <section class="section-padding" id="about-area">
       <div class="container">
           <div class="row">
@@ -43,7 +44,7 @@
                   </div>
               </div>
           </div>
-          <div class="row">
+          <div class="row">  
               <div class="col-xs-12 col-md-12">
                   <div class="contact-form">
                       <form action="process.php" id="contact-form" method="post">
