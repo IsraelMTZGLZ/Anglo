@@ -91,6 +91,7 @@
     <script src="<?=base_url('resources/assets/js/main.js');?>"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXZ3vJtdK6aKAEWBovZFe4YKj1SGo9V20&callback=initMap"></script>
     <script src="<?=base_url('resources/assets/js/maps.js');?>"></script>
+	<script src="<?=base_url('resources/assets/flexslider/jquery.flexslider.js');?>"></script>
 
 	<!--Boostrap-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

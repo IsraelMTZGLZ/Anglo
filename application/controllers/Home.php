@@ -8,6 +8,7 @@ class Home extends MY_RootController {
 		$this->_initialPage();
 		$this->load->view('home_view');
 		$this->_footerPage();
+		$this->load->view('homejs');
 	}
 
 }
