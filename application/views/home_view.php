@@ -81,6 +81,8 @@
                             <li><a href="#price-area">Price</a></li>
                             <li><a href="#blog-area">Blog</a></li>
                             <li><a href="#contact-area">Contact</a></li>
+                            
+
                         </ul>
                     </div>
                 </div>
