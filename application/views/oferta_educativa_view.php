@@ -1,17 +1,26 @@
 <header class="test2"></header>
 
-<section class="section-padding" style="margin-top: -500px">
+<section class="tags">
+
+</section>
+
+<section class="desc">
+</section>
+
+
+<section class="section-padding seleccion" style="margin-top: -500px;margin-bottom: -100px">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <img src="https://www.anglolatinoedu.com/wp-content/uploads/2019/11/otras-universidades-reino-unido.jpeg">
-                    <div class="feature-box wow fadeInUp" data-wow-delay="0.2s">
-                       
-                        <h4>Universidad</h4>
-                        <p>Todas las universidades con las que tenemos convenio cuentan con becas internas para estudiantes extranjeros.</p>
-                        <a href="#" class="read-more">Seleccionar</a>
-                    </div>
-                </div>
+                <a class="universidad" type="button">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<img src="https://www.anglolatinoedu.com/wp-content/uploads/2019/11/otras-universidades-reino-unido.jpeg">
+						<div class="feature-box wow fadeInUp" data-wow-delay="0.2s">
+						
+							<h4>Universidad</h4>
+							<p>Todas las universidades con las que tenemos convenio cuentan con becas internas para estudiantes extranjeros.</p>
+						</div>
+                	</div>
+				</a>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <img src="https://www.anglolatinoedu.com/wp-content/uploads/2019/11/1.png">
 
@@ -28,6 +37,16 @@
                         
                         <h4>Escuelas de ingles</h4>
                         <p>Cursos de ingles durante todo el año, campamentos de verano para jóvenes; cursos a la medida para grupos.</p>
+                        <a href="#" class="read-more">Seleccionar</a>
+                    </div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="https://www.anglolatinoedu.com/wp-content/uploads/2019/11/escuelas-de-ingles2.jpeg">
+
+                    <div class="feature-box wow fadeInUp" data-wow-delay="0.6s">
+                        
+                        <h4>Facultades</h4>
+                        <p>Dependiendo a la carrera del aspirante se puede buscar </p>
                         <a href="#" class="read-more">Seleccionar</a>
                     </div>
                 </div>

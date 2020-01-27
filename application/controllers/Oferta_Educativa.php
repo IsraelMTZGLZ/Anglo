@@ -8,7 +8,7 @@ class Oferta_Educativa extends MY_RootController {
 		$this->_initialPage();
 		$this->load->view('oferta_educativa_view');
 		$this->_footerPage();
-		//$this->load->view('homejs');
+		$this->load->view('oferta_educativajs');
 	}
 
 }
