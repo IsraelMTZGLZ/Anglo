@@ -27,6 +27,8 @@
 
 	<link rel="stylesheet" href="<?=base_url('resources/assets/fontawesome/css/all.min.css');?>">
 	<link rel="stylesheet" href="<?=base_url('resources/assets/css/social.css');?>">
+	<link rel="stylesheet" href="<?=base_url('resources/assets/css/dropdaw.css');?>">
+
 	<link rel="stylesheet" href="<?=base_url('resources/assets/flexslider/flexslider.css');?>">
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -36,6 +38,10 @@
 		body{
 			overflow-x: hidden;
 		}
+		.carrusel:hover{
+			filter: saturate(170%);
+		}
+		
 	</style>
 </head>
 <body>
