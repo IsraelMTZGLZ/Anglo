@@ -11,6 +11,7 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="<?=base_url('resources/register/css/style.css');?>">
+    <link rel="stylesheet" href="<?=base_url('resources/register/Button/style.css');?>">
 </head>
 <body>
 
@@ -39,7 +40,7 @@
                             <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
                             <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group buttonOne">
                             <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>
                         </div>
                     </form>
