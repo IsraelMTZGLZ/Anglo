@@ -1,106 +1,60 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="John Doe">
-    <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>Register</title>
-    <!-- Place favicon.ico in the root directory -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
 
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="<?=base_url('resources/register/fonts/material-icon/css/material-design-iconic-font.min.css');?>">
 
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Main css -->
+    <link rel="stylesheet" href="<?=base_url('resources/register/css/style.css');?>">
+    <link rel="stylesheet" href="<?=base_url('resources/register/Button/style.css');?>">
 </head>
+<body>
 
-<body data-spy="scroll" data-target=".mainmenu-area">
-    <!--Preloader-->
-    <div class="preloader">
-        <div class="spinner"></div>
-    </div>
-    <!-- <section class="section-padding" id="about-area" >
-        <div class="container" >
-            <div class="row">
+    <div class="main">
 
-                <div class="hidden-xs col-sm-6 col-md-offset-1" align="center">
-                    <img src="<?=base_url('resources/assets/images/about-image.png');?>" alt="">
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Repeat your password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                        </div>
+                        <div class="form-group buttonOne">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                        Have already an account ? <a href="#" class="loginhere-link">Login here</a>
+                    </p>
                 </div>
-        </div>
-    </section> -->
+            </div>
+        </section>
 
+    </div>
 
-    <section class="section-padding" id="about-area">
-      <div class="container">
-          <div class="row">
-              <div class="col-xs-12">
-                  <div class="page-title">
-                      <h3 class="bar-title">Contact Now</h3>
-                  </div>
-              </div>
-          </div>
-          <div class="row">  
-              <div class="col-xs-12 col-md-12">
-                  <div class="contact-form">
-                      <form action="process.php" id="contact-form" method="post">
-                          <div class="form-double">
-                              <input type="text" id="form-name" name="form-name" placeholder="Full Name" required="required">
-                              <input type="number" placeholder="Phone Number">
-                          </div>
-                          <div class="form-double">
-                              <input type="email" name="form-email" name="email" id="form-email" placeholder="Your Email" required="required">
-                              <input type="text" name="form-subject" id="form-subject" placeholder="Subject" required="required">
-                          </div>
-                          <div class="form-double">
-                              <input type="email" name="form-email" name="email" id="form-email" placeholder="Your Email" required="required">
-                              <input type="text" name="form-subject" id="form-subject" placeholder="Subject" required="required">
-                          </div>
-                          <div class="form-double">
-                              <input type="email" name="form-email" name="email" id="form-email" placeholder="Your Email" required="required">
-                              <input type="text" name="form-subject" id="form-subject" placeholder="Subject" required="required">
-                          </div>
-                          <textarea name="form-message" id="message" id="form-message" rows="5" required="required" placeholder="Message"></textarea>
-                          <button class="bttn bttn-primary">Send Now</button>
-                      </form>
-                  </div>
-              </div>
-              <!-- <div class="col-xs-12 col-md-4">
-                  <div class="contact-info">
-                      <ul class="info">
-                          <li>
-                              <span class="info-icon">
-                                  <i class="icofont icofont-social-google-map"></i>
-                              </span> 160 L ink Road <br /> Dhaka-1216, Bangladesh
-                          </li>
-                          <li>
-                              <span class="info-icon">
-                                  <i class="icofont icofont-ui-cell-phone"></i>
-                              </span> (+00) 99 33 247
-                          </li>
-                          <li>
-                              <span class="info-icon">
-                                  <i class="icofont icofont-envelope"></i>
-                              </span> Info@fabiocode.com
-                          </li>
-                      </ul>
-                      <div class="social-menu-2">
-                          <a href="#"><i class="icofont icofont-social-twitter"></i></a>
-                          <a href="#"><i class="icofont icofont-social-skype"></i></a>
-                          <a href="#"><i class="icofont icofont-social-instagram"></i></a>
-                      </div>
-                  </div>
-              </div> -->
-          </div>
-      </div>
-    </section>
-
-<hr>
-
-</body>
-
+    <!-- JS -->
+    <script src="<?=base_url('resources/register/vendor/jquery/jquery.min.js');?>"></script>
+    <script src="<?=base_url('resources/register/js/main.js');?>"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
