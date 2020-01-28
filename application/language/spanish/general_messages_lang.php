@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $lang['home'] = "Inicio";
 $lang['initial_message']="Te asesoramos de manera GRATUITA y apoyamos en tu educación en instituciones y colegios británicos de excelencia.";
-$lang['educative_offer']="Educative offer";
+$lang['educative_offer']="Oferta educativa";
 $lang['test']="Somos la mejor solución de negocios de Mak para nuestro cliente";
 $lang['contact']="Contactanos Ahora";
 $lang['english']="Ingles";

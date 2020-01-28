@@ -51,7 +51,7 @@
 
 <!--Boton redes sociales-->
 <div class="social-bar">
-    <a href="#" class="icon icon-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.facebook.com/AngloLatino/" class="icon icon-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
     <a href="#" class="icon icon-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
     <a href="#" class="icon icon-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
     <a href="#" class="icon icon-instagram" target="_blank"><i class="fab fa-whatsapp"></i></a>

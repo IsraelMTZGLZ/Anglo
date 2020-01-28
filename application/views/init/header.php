@@ -28,7 +28,7 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="mainmenu">
                         <ul class="nav navbar-nav navbar-right help-menu">
-                            <li><a href=""><i class="icofont icofont-user-alt-4"></i></a></li>
+                            <li><a href="<?=base_url('index.php/');?>Register"><i class="icofont icofont-user-alt-4"></i></a></li>
                             <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>
                             <li class="select-cuntry">
 							<div class="dropdown">
@@ -43,11 +43,9 @@
                         <ul class="nav navbar-nav primary-menu">
                             <li class="active"><a href="<?=base_url('index.php/');?>Home"><?=$this->lang->line('home');?></a></li>
                             <li><a href="<?=base_url('index.php/');?>Oferta_Educativa"><?=$this->lang->line('educative_offer');?></a></li>
-                            <li><a href="#portfolio-area">Portfolio</a></li>
-                            <li><a href="#team-area">Team</a></li>
-                            <li><a href="#price-area">Price</a></li>
+                            <li><a href="#portfolio-area">Becas</a></li>
+                            <li><a href="<?=base_url('index.php/');?>Register">Contacto</a></li>
                             <li><a href="#blog-area">Blog</a></li>
-                            <li><a href="#contact-area">Contact</a></li>
                         </ul>
                     </div>
                 </div>
