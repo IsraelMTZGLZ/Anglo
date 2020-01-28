@@ -31,7 +31,7 @@
 
 				<form class="login100-form validate-form">
 					<span class="login100-form-logo">
-						<img alt="" src="<?=base_url('resources/register/images/img/student1.png');?>">
+						<img alt="" src="<?=base_url('resources/register/images/angloLogo.png');?>">
 					</span>
 					<span class="login100-form-title p-b-34 p-t-27">
 						Sign in
