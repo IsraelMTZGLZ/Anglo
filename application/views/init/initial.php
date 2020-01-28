@@ -27,6 +27,8 @@
 
 	<link rel="stylesheet" href="<?=base_url('resources/assets/fontawesome/css/all.min.css');?>">
 	<link rel="stylesheet" href="<?=base_url('resources/assets/css/social.css');?>">
+	<link rel="stylesheet" href="<?=base_url('resources/assets/css/dropdaw.css');?>">
+
 	<link rel="stylesheet" href="<?=base_url('resources/assets/flexslider/flexslider.css');?>">
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -36,13 +38,20 @@
 		body{
 			overflow-x: hidden;
 		}
+		.carrusel:hover{
+			filter: saturate(170%);
+		}
+		.topcards{
+			margin-top: -500px;
+		}
+		
 	</style>
 </head>
 <body>
 
 <!--Boton redes sociales-->
 <div class="social-bar">
-    <a href="#" class="icon icon-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.facebook.com/AngloLatino/" class="icon icon-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
     <a href="#" class="icon icon-twitter" target="_blank"><i class="fab fa-twitter"></i></a>
     <a href="#" class="icon icon-youtube" target="_blank"><i class="fab fa-youtube"></i></a>
     <a href="#" class="icon icon-instagram" target="_blank"><i class="fab fa-whatsapp"></i></a>

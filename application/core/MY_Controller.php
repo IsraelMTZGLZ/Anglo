@@ -5,7 +5,8 @@ if (! defined ( 'BASEPATH' ))
 class MY_RootController extends CI_Controller {
 	
   public function __construct() {
-    parent::__construct();
+	parent::__construct();
+	$this->lang->load('general_messages','english');
   }
 
   public function _initialPage() {
