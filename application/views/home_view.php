@@ -6,8 +6,8 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-10 col-md-8">
                         <div class="header-text">
-                            <h2 class="wow fadeInUp" style="color: white;">Te asesoramos de manera <span class="dot">GRATUITA</span> y apoyamos en tu educación en instituciones y colegios británicos de excelencia.</h2>
-                            <div class="wow fadeInUp" data-wow-delay="0.5s"><q>We Mak Sure Best Business Solution For Our Client</q></div>
+                            <h2 class="wow fadeInUp" style="color: white;"><?=$this->lang->line('initial_message');?></h2>
+                            <div class="wow fadeInUp" data-wow-delay="0.5s"><q><?=$this->lang->line('test');?></q></div>
                             <div class="wow fadeInUp" data-wow-delay="0.7s">
                                 <a href="#" class="bttn bttn-lg bttn-primary">Contact Now</a>
                             </div>

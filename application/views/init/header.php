@@ -34,15 +34,15 @@
 							<div class="dropdown">
 								<button class="dropbtn"><img src="<?=base_url('resources/assets/');?>images/planeta-tierra.png"></button>
 								<div class="dropdown-content">
-									<a href="#" class="test"><img src="<?=base_url('resources/assets/');?>images/bandera.png">&nbsp;&nbsp;English</a>
-									<a href="#"><img src="<?=base_url('resources/assets/');?>images/mexico.png">&nbsp;&nbsp;Spanish</a>
+									<a style="background: <?php if($this->session->userdata('site_lang') == 'english') echo 'red"'; ?>" href="<?=base_url('index.php/');?>LanguageSwitcher/switchLang/english" class="test"><img src="<?=base_url('resources/assets/');?>images/bandera.png">&nbsp;&nbsp;<?=$this->lang->line('english');?></a>
+									<a style="background: <?php if($this->session->userdata('site_lang') == 'spanish') echo 'red"';?>" href="<?=base_url('index.php/');?>LanguageSwitcher/switchLang/spanish"><img src="<?=base_url('resources/assets/');?>images/mexico.png">&nbsp;&nbsp;<?=$this->lang->line('spanish');?></a>
 								</div>
 							</div>
                             </li>
                         </ul>
                         <ul class="nav navbar-nav primary-menu">
-                            <li class="active"><a href="<?=base_url('index.php/');?>Home">Home</a></li>
-                            <li><a href="<?=base_url('index.php/');?>Oferta_Educativa">Oferta educativa</a></li>
+                            <li class="active"><a href="<?=base_url('index.php/');?>Home"><?=$this->lang->line('home');?></a></li>
+                            <li><a href="<?=base_url('index.php/');?>Oferta_Educativa"><?=$this->lang->line('educative_offer');?></a></li>
                             <li><a href="#portfolio-area">Portfolio</a></li>
                             <li><a href="#team-area">Team</a></li>
                             <li><a href="#price-area">Price</a></li>

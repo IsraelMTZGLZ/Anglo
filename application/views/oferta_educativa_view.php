@@ -1,4 +1,6 @@
-<header class="test2"></header>
+<header class="test2">
+    <button type="button" class="btn btn-danger btn-lg regresar" style="margin-top: 110px;margin-left: 100px;display: none;">Regresar</button>
+</header>
 
 <section class="tags">
 
@@ -6,6 +8,7 @@
 
 <section class="desc">
 </section>
+
 
 
 <section class="section-padding seleccion" style="margin-top: -500px;margin-bottom: -100px">
