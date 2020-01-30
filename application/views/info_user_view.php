@@ -1082,7 +1082,7 @@
                     <span class="progress-description">
                       User information here
                     </span>
-                    
+
                     <button type="button" class="btn btn-circle btn-default">Default</button>
 									</div>
 									<!-- /.info-box-content -->
