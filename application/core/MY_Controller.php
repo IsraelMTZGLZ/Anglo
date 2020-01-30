@@ -18,5 +18,16 @@ class MY_RootController extends CI_Controller {
 	{
 		$this->load->view('init/footer');
 	}
+
+	public function _initialDashboard(){
+		$this->load->view('init_dashboard/initial');
+		$this->load->view('init_dashboard/header');
+		$this->load->view('init_dashboard/menu');
+	}
+
+	public function _footerDashboard(){
+		$this->load->view('init_dashboard/footer');
+	}
+	
 	
 }
