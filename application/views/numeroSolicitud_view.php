@@ -1,7 +1,7 @@
 <div class="page-bar">
 	<div class="page-title-breadcrumb">
 		<div class=" pull-left">
-			<div class="page-title">Archivos necesarios</div>
+			<div class="page-title">Numero de solicitud</div>
 		</div>
 		<ol class="breadcrumb page-breadcrumb pull-right">
 			
@@ -92,75 +92,27 @@
 		</div>
 		<div class="profile-content">
 			<div class="row">
-				<div class="card col-lg-12 ol-md-12 col-sm-12">
+				<div class="card col-lg-12 col-md-12 col-sm-12">
 					<div class="card-topline-aqua">
 						<header></header>
 					</div>
 					<div class="white-box">
-						<div class="tab-content">
-							<div class="table-responsive">
-								<table class="table">
-									<thead class="bg-warning">
-										<tr>
-											<th scope="col">Archivo</th>
-											<th scope="col">Descripcion</th>
-											<th scope="col">Status</th>
-											<th scope="col">Comentario</th>
-											<th scope="col">Subir</th>
-											<th scope="col">Accion</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Carta recomendacion</td>
-											<td>Son necesarias dos cartas...</td>
-											<td><span class="badge badge-primary">Pendiente</span></td>
-											<td></td>
-											<td>
-												<div class="tab-pane active fontawesome-demo" id="uploadForm">
-													<div id="biography">
-													<input type="file" name="file" id="file" />
-													</div>
-
-												</div>
-											</td>
-											<td>
-												<a href="edit_professor.html" class="btn btn-primary btn-xs">
-													<i class="fa fa-check"></i>
-												</a>
-												<button class="btn btn-danger btn-xs">
-													<i class="fa fa-trash-o "></i>
-												</button>
-											</td>
-										</tr>
-										<tr>
-											<td>Carta recomendacion</td>
-											<td>Son necesarias dos cartas...</td>
-											<td><span class="badge badge-danger">Rechazado</span></td>
-											<td>Mejora tu archivo</td>
-											<td>
-												<div class="tab-pane active fontawesome-demo" id="uploadForm">
-													<div id="biography">
-													<input type="file" name="file" id="file" />
-													</div>
-
-												</div>
-											</td>
-											<td>
-												<a href="edit_professor.html" class="btn btn-primary btn-xs">
-													<i class="fa fa-check"></i>
-												</a>
-												<button class="btn btn-danger btn-xs">
-													<i class="fa fa-trash-o "></i>
-												</button>
-											</td>
-										</tr>
-									</tbody>
-								</table>
+						<div class="row">
+							<div class="col">
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
+									<input class="mdl-textfield__input" type="text" id="txtFirstName">
+									<label class="mdl-textfield__label">Numero proporcionado</label>
+								</div>
 							</div>
-							<div class="box-footer clearfix" style="margin-top: 20px">
-								<a type="button" href="<?=base_url('index.php/');?>NumeroSolicitud" class="mdl-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-primary pull-right" data-upgraded=",MaterialRipple">Terminar
-									<i class="fa fa-paper-plane-o"></i></a>
+							<div class="col">
+								<div class="form-control-wrapper">
+									<input type="text" id="date" class="floating-label mdl-textfield__input" placeholder="Date">
+								</div>
+								<button style="margin-top: 20px;margin-left: 10px;" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-pink" data-upgraded=",MaterialButton,MaterialRipple">
+									Enviar
+									<span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating" style="width: 153.568px; height: 153.568px; transform: translate(-50%, -50%) translate(25px, 20px);"></span></span>
+								</button>	
+								
 							</div>
 						</div>
 					</div>

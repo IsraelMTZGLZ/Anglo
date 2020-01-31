@@ -1,5 +1,6 @@
-
+<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">
 	<div class="page-wrapper">
+		
 		<!-- start header -->
 		<div class="page-header navbar navbar-fixed-top">
 			<div class="page-header-inner ">

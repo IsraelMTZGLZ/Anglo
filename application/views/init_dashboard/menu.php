@@ -665,4 +665,6 @@
 					</div>
 				</div>
 			</div>
-			<!-- end sidebar menu -->
+
+<div class="page-content-wrapper">
+	<div class="page-content">

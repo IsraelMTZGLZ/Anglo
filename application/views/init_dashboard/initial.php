@@ -31,7 +31,9 @@
 	<link href="<?=base_url('resources/dashboard/source/assets/css/theme/light/theme-color.css');?>" rel="stylesheet" type="text/css" />
 	<!-- favicon -->
 	<link rel="shortcut icon" href="<?=base_url('resources/dashboard/source/assets/img/favicon.ico');?>" />
+	<!-- Date Time item CSS -->
+	<link rel="stylesheet" href="<?=base_url('resources/dashboard/source/assets/plugins/material-datetimepicker/bootstrap-material-datetimepicker.css')?>" />
+
 </head>
 <!-- END HEAD -->
 
-<body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">

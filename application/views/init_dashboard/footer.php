@@ -23,8 +23,7 @@
 	<script src="<?=base_url('resources/dashboard/source/assets/js/app.js');?>"></script>
 	<script src="<?=base_url('resources/dashboard/source/assets/js/layout.js');?>"></script>
 	<script src="<?=base_url('resources/dashboard/source/assets/js/theme-color.js');?>"></script>
-	<!-- material -->
-	<script src="<?=base_url('resources/dashboard/source/assets/plugins/material/material.min.js');?>"></script>
+
 	<!-- chart js -->
 	<script src="<?=base_url('resources/dashboard/source/assets/plugins/chart-js/Chart.bundle.js');?>"></script>
 	<script src="<?=base_url('resources/dashboard/source/assets/plugins/chart-js/utils.js');?>"></script>
@@ -34,12 +33,15 @@
 	<script src="<?=base_url('resources/dashboard/source/assets/js/pages/summernote/summernote-data.js');?>"></script>
 	<!-- end js include path -->
 
-	<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+	<!-- Material -->
+	<script src="<?=base_url('resources/dashboard/source/assets/plugins/material/material.min.js')?>"></script>
+	<script src="<?=base_url('resources/dashboard/source/assets/plugins/material-datetimepicker/moment-with-locales.min.js');?>"></script>
+	<script src="<?=base_url('resources/dashboard/source/assets/plugins/material-datetimepicker/bootstrap-material-datetimepicker.js')?>"></script>
+	<script src="<?=base_url('resources/dashboard/source/assets/plugins/material-datetimepicker/datetimepicker.js')?>"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+   
 </body>
 
 </html>

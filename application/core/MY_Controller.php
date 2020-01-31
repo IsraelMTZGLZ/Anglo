@@ -26,6 +26,7 @@ class MY_RootController extends CI_Controller {
 	}
 
 	public function _footerDashboard(){
+		$this->load->view('init_dashboard/chatbar');
 		$this->load->view('init_dashboard/footer');
 	}
 	
