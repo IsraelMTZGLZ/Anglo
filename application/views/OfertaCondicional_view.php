@@ -97,22 +97,19 @@
 						<header></header>
 					</div>
 					<div class="white-box">
-						<div class="row">
-							<div class="col">
-								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label txt-full-width">
-									<input class="mdl-textfield__input" type="text" id="txtFirstName">
-									<label class="mdl-textfield__label">Numero proporcionado</label>
+						<div class="row box-oferta">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<label>Ingresa la oferta:</label>
+								<div class="tab-pane active fontawesome-demo" id="uploadForm">
+									<div id="biography">
+									<input type="file" name="file" id="file" />
+									</div>
+
 								</div>
 							</div>
-							<div class="col">
-								<div class="form-control-wrapper">
-									<input type="text" id="date" class="floating-label mdl-textfield__input" placeholder="Date">
-								</div>
-								<a href="<?=base_url('index.php/');?>OfertaCondicional" style="margin-top: 20px;margin-left: 10px;" type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-pink" data-upgraded=",MaterialButton,MaterialRipple">
-									Enviar
-									<span class="mdl-button__ripple-container"><span class="mdl-ripple is-animating" style="width: 153.568px; height: 153.568px; transform: translate(-50%, -50%) translate(25px, 20px);"></span></span>
-								</a>	
-								
+							<div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 20px;">
+								<button type="button" class="mdl-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-primary pull-right btn-send" data-upgraded=",MaterialRipple">Terminar
+									<i class="fa fa-paper-plane-o"></i></button>
 							</div>
 						</div>
 					</div>

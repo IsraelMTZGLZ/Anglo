@@ -92,7 +92,7 @@
 		</div>
 		<div class="profile-content">
 			<div class="row">
-				<div class="card col-lg-12 ol-md-12 col-sm-12">
+				<div class="card col-lg-12 col-md-12 col-sm-12">
 					<div class="card-topline-aqua">
 						<header></header>
 					</div>

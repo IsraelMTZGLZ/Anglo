@@ -2,7 +2,6 @@
 	$(function(){
 		var uni=null;
 		var test=null;
-		console.info('entro');
 		$(document).on('click','.universidad',function(){
 			universidad();
 			uni=2;

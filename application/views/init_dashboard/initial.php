@@ -34,6 +34,9 @@
 	<!-- Date Time item CSS -->
 	<link rel="stylesheet" href="<?=base_url('resources/dashboard/source/assets/plugins/material-datetimepicker/bootstrap-material-datetimepicker.css')?>" />
 
+	<link rel="stylesheet" href="<?=base_url('resources/assets/fontawesome/css/all.min.css');?>">
+	<link rel="stylesheet" href="<?=base_url('resources/assets/css/social.css');?>">
+	<link rel="stylesheet" href="<?=base_url('resources/assets/css/dropdaw.css');?>">
 </head>
 <!-- END HEAD -->
 
