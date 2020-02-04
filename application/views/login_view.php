@@ -19,10 +19,72 @@
 	<link rel="stylesheet" href="<?=base_url('resources/dashboard/source/assets/css/pages/extra_pages.css?');?>">
 	<!-- favicon -->
 	<link rel="shortcut icon" href="<?=base_url('resources/dashboard/source/assets/img/favicon.ico');?>" />
+
+	<link rel="stylesheet" href="<?=base_url('resources/assets/fontawesome/css/all.min.css');?>">
+
+
+	<style>
+		.social-bar {
+			position: fixed;
+			right: 0;
+			top: 35%;
+			font-size: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			z-index: 100;
+		}
+
+		.icon {
+			color: white;
+			text-decoration: none;
+			
+			padding: .7rem;
+			display: flex;
+			transition: all .5s;
+			width: 52%;
+		}
+
+		.icon-facebook {
+			background: #2E406E;
+		}
+
+
+		.icon-instagram {
+			background: #3CDA5B;
+		}
+
+		.icon:first-child {
+			border-radius: 1rem 0 0 0;
+		}
+
+		.icon:last-child {
+			border-radius: 0 0 0 1rem;
+		}
+
+		.icon:hover {
+			padding-right: 3rem;
+			border-radius: 1rem 0 0 1rem;
+			box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+			width: 100%
+		}
+
+		.icon:hover .disable{
+			visibility: visible;
+		}
+		.disable{
+			visibility: hidden;
+		}
+
+	</style>
 </head>
 
 <body>
 
+	<div class="social-bar">
+		<a style="background: <?php if($this->session->userdata('site_lang') == 'spanish') echo 'red"';?>" href="<?=base_url('index.php/');?>LanguageSwitcher/switchLang/spanish" class="icon icon-facebook"><img src="<?=base_url('resources/assets/');?>images/mexico.png">&nbsp;&nbsp;<p class="disable" style="color: white;"><?=$this->lang->line('spanish');?></p></a>
+		<a style="background: <?php if($this->session->userdata('site_lang') == 'english') echo 'red"'; ?>" href="<?=base_url('index.php/');?>LanguageSwitcher/switchLang/english" class="icon icon-instagram"><img src="<?=base_url('resources/assets/');?>images/bandera.png">&nbsp;&nbsp;<p class="disable" style="color: white;"><?=$this->lang->line('english');?></p></a>
+	</div>
 
 	<div class="limiter">
 		<div class="container-login100 page-background">
@@ -31,8 +93,11 @@
 
 				<form class="login100-form validate-form">
 					<span class="login100-form-logo">
-						<img alt="" src="<?=base_url('resources/register/images/angloLogo.png');?>">
+						<a href="<?=base_url('index.php/');?>Home" data-toggle="tooltip" data-placement="top" title="Go to home">
+							<img alt="" src="<?=base_url('resources/register/images/angloLogo.png');?>">
+						</a>
 					</span>
+					
 					<span class="login100-form-title p-b-34 p-t-27">
 						Sign in
 					</span>
@@ -44,6 +109,15 @@
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
 						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					</div>
+					<p class="text-center font-italic" style="color: white;">Login with your social media account</p>
+					<div class="row" style="margin-left: 10px;margin-right: 10px;margin-bottom: 15px;">
+						<div class="col-6">
+							<a href="#" class="btn btn-danger btn-block"><i class="fab fa-google"></i>&nbsp; Google</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="btn btn-primary btn-block"><i class="fab fa-facebook-f"></i>&nbsp; Facebook</a>
+						</div>
 					</div>
 					<div class="contact100-form-checkbox">
 						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
@@ -72,6 +146,11 @@
 	<script src="<?=base_url('resources/dashboard/source/plugins/bootstrap/js/bootstrap.min.js');?>"></script>
 	<script src="<?=base_url('resources/dashboard/source/assets/js/pages/extra-pages/pages.js');?>"></script>
 	<!-- end js include path -->
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
 </body>
 
 </html>

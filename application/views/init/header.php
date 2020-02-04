@@ -10,9 +10,8 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div id="search-box" class="collapse">
-                        <form action="#">
-                            <input type="search" class="form-control" placeholder="What do you want to know?">
-                        </form>
+						<script async src="https://cse.google.com/cse.js?cx=001441891157965034420:x3ebhsexy6b"></script>
+						<div class="gcse-search"></div>
                     </div>
                 </div>
             </div>
@@ -28,7 +27,7 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="mainmenu">
                         <ul class="nav navbar-nav navbar-right help-menu">
-                            <li><a href="<?=base_url('index.php/');?>Register"><i class="icofont icofont-user-alt-4"></i></a></li>
+                            <li><a href="<?=base_url('index.php/');?>Login"><i class="icofont icofont-user-alt-4"></i></a></li>
                             <li><a href="#search-box" data-toggle="collapse"><i class="icofont icofont-search-alt-2"></i></a></li>
                             <li class="select-cuntry">
 							<div class="dropdown">
@@ -41,8 +40,8 @@
                             </li>
                         </ul>
                         <ul class="nav navbar-nav primary-menu">
-                            <li class="active"><a href="<?=base_url('index.php/');?>Home"><?=$this->lang->line('home');?></a></li>
-                            <li><a href="<?=base_url('index.php/');?>Oferta_Educativa"><?=$this->lang->line('educative_offer');?></a></li>
+                            <li class="<?=@$this->session->flashdata('activo')=='home' ? 'active' : '' ?>"><a href="<?=base_url('index.php/');?>Home"><?=$this->lang->line('home');?></a></li>
+                            <li class="<?=@$this->session->flashdata('activo')=='ofertaEducativa' ? 'active' : '' ?>"><a href="<?=base_url('index.php/');?>Oferta_Educativa"><?=$this->lang->line('educative_offer');?></a></li>
                             <li><a href="#portfolio-area">Becas</a></li>
                             <li><a href="<?=base_url('index.php/');?>Register">Contacto</a></li>
                             <li><a href="#blog-area">Blog</a></li>

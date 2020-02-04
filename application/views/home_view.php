@@ -9,7 +9,7 @@
                             <h2 class="wow fadeInUp" style="color: white;"><?=$this->lang->line('initial_message');?></h2>
                             <div class="wow fadeInUp" data-wow-delay="0.5s"><q><?=$this->lang->line('test');?></q></div>
                             <div class="wow fadeInUp" data-wow-delay="0.7s">
-                                <a href="#" class="bttn bttn-lg bttn-primary">Contact Now</a>
+                                <a href="<?=base_url('index.php/');?>Register" class="bttn bttn-lg bttn-primary"><?=$this->lang->line('contact');?></a>
                             </div>
                         </div>
                     </div>
@@ -18,7 +18,7 @@
         </div>
     </header>
     <!--Header-Area-/-->
-
+	
 <br>
 
 	
