@@ -29,7 +29,7 @@
 Look like you're lost
 </h3>
 <p>the page you are looking for not avaible!</p>
-<a href="<?=base_url('index.php/Home');?>" class="link_404">Go to Home</a>
+<a href="<?=base_url('index.php/Login');?>" class="link_404">Go to Home</a>
 </div>
 </div>
 </div>

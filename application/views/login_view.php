@@ -91,7 +91,7 @@
 			<div class="wrap-login100">
 
 
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" id="formLogin">
 					<span class="login100-form-logo">
 						<a href="<?=base_url('index.php/');?>Home" data-toggle="tooltip" data-placement="top" title="Go to home">
 							<img alt="" src="<?=base_url('resources/register/images/angloLogo.png');?>">
@@ -103,11 +103,11 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter username">
-						<input class="input100" type="text" placeholder="Username" name="username">
+						<input class="input100" type="text" placeholder="Username" name="username" id="username">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="password" placeholder="Password">
+						<input class="input100" type="password" name="password" id="password" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
 					<p class="text-center font-italic" style="color: white;">Login with your social media account</p>
@@ -119,14 +119,8 @@
 							<a href="#" class="btn btn-primary btn-block"><i class="fab fa-facebook-f"></i>&nbsp; Facebook</a>
 						</div>
 					</div>
-					<div class="contact100-form-checkbox">
-						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-						<label class="label-checkbox100" for="ckb1">
-							Remember me
-						</label>
-					</div>
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" type="submit">
 							Login
 						</button>
 					</div>
@@ -145,12 +139,7 @@
 	<!-- bootstrap -->
 	<script src="<?=base_url('resources/dashboard/source/plugins/bootstrap/js/bootstrap.min.js');?>"></script>
 	<script src="<?=base_url('resources/dashboard/source/assets/js/pages/extra-pages/pages.js');?>"></script>
-	<!-- end js include path -->
-	<script>
-		$(function () {
-			$('[data-toggle="tooltip"]').tooltip()
-		});
-	</script>
+	
 </body>
 
 </html>
