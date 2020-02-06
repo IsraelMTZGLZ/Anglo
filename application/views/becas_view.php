@@ -4,7 +4,7 @@
 			<div class="page-title">Becas</div>
 		</div>
 		<ol class="breadcrumb page-breadcrumb pull-right">
-			
+
 			<li class="active">Course Details</li>
 		</ol>
 	</div>
@@ -23,7 +23,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-lg-6 col-sm-12">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUXfjz1Ll_DKSaWgEIQDMZ0HmmkJHcXrf" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>								
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLUXfjz1Ll_DKSaWgEIQDMZ0HmmkJHcXrf" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								<div class="card-body">
 									<h5 class="card-title">Lista CONACYT</h5>
 								</div>
@@ -74,9 +74,9 @@
 										</div>
 									</div>
 								</li>
-								
+
 							</ul>
-							</div>				
+							</div>
 						</div>
 					</div>
 				</div>
@@ -84,5 +84,3 @@
 		</div>
 	</div>
 </div>
-				
-			

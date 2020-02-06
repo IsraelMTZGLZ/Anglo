@@ -23,7 +23,7 @@
 						Ciudad de Bath (1hr 50 mins de Londres).
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="card border-success card-box">
 					<img class="card-img-top" src="https://www.anglolatinoedu.com/wp-content/uploads/2019/09/bristol.png" style="height: 170px">
@@ -90,9 +90,9 @@
 			</div>
 		</div>
 	</div>
-</div>	
+</div>
 
-		
+
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
