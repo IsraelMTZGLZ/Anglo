@@ -129,7 +129,7 @@
 													<i class="fa fa-check"></i>
 												</a>
 												<button class="btn btn-danger btn-xs">
-													<i class="fa fa-trash-o "></i>
+													<i class="fas fa-trash"></i>
 												</button>
 											</td>
 										</tr>
@@ -151,7 +151,7 @@
 													<i class="fa fa-check"></i>
 												</a>
 												<button class="btn btn-danger btn-xs">
-													<i class="fa fa-trash-o "></i>
+													<i class="fas fa-trash"></i>
 												</button>
 											</td>
 										</tr>
