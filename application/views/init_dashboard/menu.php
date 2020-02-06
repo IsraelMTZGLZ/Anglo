@@ -60,7 +60,7 @@
 								</a>
 								<ul class="sub-menu">
 									<li class="nav-item">
-										<a href="<?=base_url('User_List')?>" class="nav-link "> <span class="title">Lista de Aspirantes</span>
+										<a href="<?=base_url('/index.php/User_List')?>" class="nav-link "> <span class="title">Lista de Aspirantes</span>
 										</a>
 									</li>
 

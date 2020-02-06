@@ -399,7 +399,7 @@
 								</a>
 								<ul class="sub-menu">
 									<li class="nav-item active">
-										<a href="<?=base_url('User_List')?>" class="nav-link "> <span class="title">Lista de Aspirantes</span>
+										<a href="<?=base_url('/index.php/User_List')?>" class="nav-link "> <span class="title">Lista de Aspirantes</span>
 										</a>
 									</li>
 									<li class="nav-item">
@@ -1112,7 +1112,7 @@
 																				rajesh@gmail.com </a></td>
 																		<td class="left">22 Feb 2000</td>
 																		<td>
-																			<a href="<?=base_url('Info_User')?>" class="btn btn-primary btn-xs">
+																			<a href="<?=base_url('/index.php/Info_User')?>" class="btn btn-primary btn-xs">
 																				<i class="fa fa-pencil"></i>
 																			</a>
 																			<button class="btn btn-danger btn-xs">
@@ -1134,7 +1134,7 @@
 																				pooja@gmail.com </a></td>
 																		<td class="left">27 Aug 2005</td>
 																		<td>
-																			<a href="<?=base_url('Info_User')?>" class="btn btn-primary btn-xs">
+																			<a href="<?=base_url('/index.php/Info_User')?>" class="btn btn-primary btn-xs">
 																				<i class="fa fa-pencil"></i>
 																			</a>
 																			<button class="btn btn-danger btn-xs">
