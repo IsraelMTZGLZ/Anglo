@@ -1027,10 +1027,10 @@
 						<div class="row">
 							<div class="col-xl-3 col-md-6 col-12">
 								<div class="info-box bg-b-green">
-									<span class="info-box-icon push-bottom"><i class="material-icons">group</i></span>
+									<span class="info-box-icon push-bottom"><i class="material-icons">person</i></span>
 									<div class="info-box-content">
-										<span class="info-box-text">Status</span>
-										<span class="info-box-number">1</span>
+										<span class="info-box-text">progreso</span>
+										<span class="info-box-number">en espera</span>
 										<div class="progress">
 											<div class="progress-bar" style="width: 45%"></div>
 										</div>
@@ -1038,7 +1038,7 @@
                       User information is validate by the status
                     </p>
                     <span class="progress-description">
-											User information here
+
 										</span>
                     <span class="progress-description">
                       User information here
@@ -1083,7 +1083,8 @@
                       User information here
                     </span>
 
-                    <button type="button" class="btn btn-circle btn-default">Default</button>
+                    	<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-circle btn-primary">Primary</button>
+												<i class="material-icons f-left">contact_phone</i>
 									</div>
 									<!-- /.info-box-content -->
 								</div>
@@ -1094,8 +1095,8 @@
 								<div class="info-box bg-b-yellow">
 									<span class="info-box-icon push-bottom"><i class="material-icons">person</i></span>
 									<div class="info-box-content">
-										<span class="info-box-text">Status </span>
-										<span class="info-box-number">2</span>
+										<span class="info-box-text">progreso </span>
+										<span class="info-box-number">En progreso</span>
 										<div class="progress">
 											<div class="progress-bar" style="width: 40%"></div>
 										</div>
@@ -1126,8 +1127,9 @@
                     <span class="progress-description">
                       User information here
                     </span>
-                    <button type="button" class="btn btn-circle btn-default">Default</button>
-									</div>
+										<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-circle btn-success">Success</button>
+										<i class="material-icons">email</i>
+											</div>
 									<!-- /.info-box-content -->
 								</div>
 								<!-- /.info-box -->
@@ -1135,10 +1137,10 @@
 							<!-- /.col -->
 							<div class="col-xl-3 col-md-6 col-12">
 								<div class="info-box bg-b-blue">
-									<span class="info-box-icon push-bottom"><i class="material-icons">school</i></span>
+								<span class="info-box-icon push-bottom"><i class="material-icons">person</i></span>
 									<div class="info-box-content">
-										<span class="info-box-text">Status </span>
-										<span class="info-box-number">3</span>
+										<span class="info-box-text">progreso </span>
+										<span class="info-box-number">En progreso</span>
 										<div class="progress">
 											<div class="progress-bar" style="width: 85%"></div>
 										</div>
@@ -1178,8 +1180,9 @@
                     <span class="progress-description">
                       User information here
                     </span>
-                    <button type="button" class="btn btn-circle btn-default">Default</button>
-									</div>
+		<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-circle btn-warning">Warning</button>
+                      <i class="material-icons f-left">contacts</i>
+								</div>
 									<!-- /.info-box-content -->
 								</div>
 								<!-- /.info-box -->
@@ -1187,10 +1190,10 @@
 							<!-- /.col -->
 							<div class="col-xl-3 col-md-6 col-12">
 								<div class="info-box bg-b-pink">
-									<span class="info-box-icon push-bottom"><i class="material-icons">monetization_on</i></span>
+<span class="info-box-icon push-bottom"><i class="material-icons">person</i></span>
 									<div class="info-box-content">
-										<span class="info-box-text">Status</span>
-										<span class="info-box-number">4</span>
+										<span class="info-box-text">progreso</span>
+										<span class="info-box-number">Terminado</span>
 										<div class="progress">
 											<div class="progress-bar" style="width: 50%"></div>
 										</div>
@@ -1224,9 +1227,8 @@
                     <span class="progress-description">
                       User information here
                     </span>
-                    <button type="button" class="btn btn-circle btn-default">Default</button>
-									</div>
-									<!-- /.info-box-content -->
+<button type="button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect m-b-10 btn-circle btn-info">Info</button>								<!-- /.info-box-content -->
+<i class="material-icons f-left">save</i>
 								</div>
 								<!-- /.info-box -->
 							</div>
@@ -1235,42 +1237,7 @@
 					</div>
 					<!-- end widget -->
 					<!-- chart start -->
-					<div class="row">
-						<div class="col-sm-8">
-							<div class="card card-box">
-								<div class="card-head">
-									<header>University Survey</header>
-									<div class="tools">
-										<a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
-										<a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
-										<a class="t-close btn-color fa fa-times" href="javascript:;"></a>
-									</div>
-								</div>
-								<div class="card-body no-padding height-9">
-									<div class="row">
-										<canvas id="canvas1"></canvas>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card card-box">
-								<div class="card-head">
-									<header>University Survey</header>
-									<div class="tools">
-										<a class="fa fa-repeat btn-color box-refresh" href="javascript:;"></a>
-										<a class="t-collapse btn-color fa fa-chevron-down" href="javascript:;"></a>
-										<a class="t-close btn-color fa fa-times" href="javascript:;"></a>
-									</div>
-								</div>
-								<div class="card-body no-padding height-9">
-									<div class="row">
-										<canvas id="chartjs_pie"></canvas>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
 					<!-- Chart end -->
 					<!-- start course list -->
 
