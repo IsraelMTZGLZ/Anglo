@@ -6,7 +6,10 @@
 				window.location.replace('<?=base_url('index.php/')?>Inicio');
 			}else if( valorEmail=== "administracion" ){
 				window.location.replace('<?=base_url('index.php/')?>Info_User');
-			}else{
+			}else if( valorEmail=== "admin" ){
+				window.location.replace('<?=base_url('resources/dashboard/source/light/index.html')?>');
+			}
+			else{
 				
 				$.ajax({
 					url: 'http://localhost/tiendaApis/index.php/users/Api/sendPassword/',
