@@ -1,6 +1,6 @@
 <body class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">
 	<div class="page-wrapper">
-		
+
 		<!-- start header -->
 		<div class="page-header navbar navbar-fixed-top">
 			<div class="page-header-inner ">
@@ -8,13 +8,13 @@
 				<div class="page-logo">
 					<a href="index.html">
 						<span class="logo-icon material-icons fa-rotate-45">school</span>
-						<span class="logo-default">Anglo</span> </a>
+						<span class="logo-default">Smart</span> </a>
 				</div>
 				<!-- logo end -->
 				<ul class="nav navbar-nav navbar-left in">
 					<li><a href="#" class="menu-toggler sidebar-toggler"><i class="icon-menu"></i></a></li>
 				</ul>
-				<form class="search-form-opened" action="#" method="GET">
+				<!-- <form class="search-form-opened" action="#" method="GET">
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Search..." name="query">
 						<span class="input-group-btn">
@@ -23,7 +23,7 @@
 							</a>
 						</span>
 					</div>
-				</form>
+				</form> -->
 				<!-- start mobile menu -->
 				<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
 					<span></span>
@@ -34,7 +34,7 @@
 					<ul class="nav navbar-nav pull-right">
 						<li><a href="javascript:;" class="fullscreen-btn"><i class="fa fa-arrows-alt"></i></a></li>
 						<!-- start language menu -->
-						<li class="dropdown language-switch">
+						<!-- <li class="dropdown language-switch">
 							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <img src="../assets/img/flags/gb.png"
 								 class="position-left" alt=""> English <span class="fa fa-angle-down"></span>
 							</a>
@@ -55,10 +55,10 @@
 									<a class="russian"><img src="../assets/img/flags/ru.png" alt=""> Русский</a>
 								</li>
 							</ul>
-						</li>
+						</li> -->
 						<!-- end language menu -->
 						<!-- start notification dropdown -->
-						<li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+						<!-- <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
 							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 								<i class="fa fa-bell-o"></i>
 								<span class="badge headerBadgeColor1"> 6 </span>
@@ -122,10 +122,10 @@
 									</div>
 								</li>
 							</ul>
-						</li>
+						</li> -->
 						<!-- end notification dropdown -->
 						<!-- start message dropdown -->
-						<li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
+						<!-- <li class="dropdown dropdown-extended dropdown-inbox" id="header_inbox_bar">
 							<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 								<i class="fa fa-envelope-o"></i>
 								<span class="badge headerBadgeColor2"> 2 </span>
@@ -198,7 +198,7 @@
 									</div>
 								</li>
 							</ul>
-						</li>
+						</li> -->
 						<!-- end message dropdown -->
 						<!-- start manage user dropdown -->
 						<li class="dropdown dropdown-user">
