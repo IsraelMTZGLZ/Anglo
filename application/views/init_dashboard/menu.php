@@ -23,7 +23,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item start active open">
+							<!-- <li class="nav-item start active open">
 								<a href="#" class="nav-link nav-toggle">
 									<i class="material-icons">dashboard</i>
 									<span class="title">Dashboard</span>
@@ -44,16 +44,16 @@
 									</li>
 									<li class="nav-item">
 										<a href="dashboard3.html" class="nav-link ">
-											<span class="title">Dashboard 3</span>
+											<span class="title">Dashboard 3sxx</span>
 										</a>
 									</li>
 								</ul>
-							</li>
-							<li class="nav-item">
+							</li> -->
+							<!-- <li class="nav-item">
 								<a href="event.html" class="nav-link nav-toggle"> <i class="material-icons">event</i>
 									<span class="title">Event Management</span>
 								</a>
-							</li>
+							</li> -->
 							<li class="nav-item">
 								<a href="#" class="nav-link nav-toggle"> <i class="material-icons">person</i>
 									<span class="title">Aspirantes</span> <span class="arrow"></span>
@@ -64,9 +64,9 @@
 										</a>
 									</li>
 
-								</ul> 
+								</ul>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a href="#" class="nav-link nav-toggle"><i class="material-icons">group</i>
 									<span class="title">Students</span><span class="arrow"></span></a>
 								<ul class="sub-menu">
@@ -645,7 +645,7 @@
 											<i class="fa fa-volume-up"></i> Item 3 </a>
 									</li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 				</div>

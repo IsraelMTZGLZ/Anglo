@@ -363,16 +363,18 @@
 									</div>
 								</div>
 							</li>
-							<li class="nav-item start ">
+							<!-- <li class="nav-item start active open">
 								<a href="#" class="nav-link nav-toggle">
 									<i class="material-icons">dashboard</i>
 									<span class="title">Dashboard</span>
-									<span class="arrow"></span>
+									<span class="selected"></span>
+									<span class="arrow open"></span>
 								</a>
 								<ul class="sub-menu">
-									<li class="nav-item   ">
+									<li class="nav-item active">
 										<a href="index.html" class="nav-link ">
 											<span class="title">Dashboard 1</span>
+											<span class="selected"></span>
 										</a>
 									</li>
 									<li class="nav-item ">
@@ -382,45 +384,29 @@
 									</li>
 									<li class="nav-item">
 										<a href="dashboard3.html" class="nav-link ">
-											<span class="title">Dashboard 3</span>
+											<span class="title">Dashboard 3sxx</span>
 										</a>
 									</li>
 								</ul>
-							</li>
-							<li class="nav-item">
+							</li> -->
+							<!-- <li class="nav-item">
 								<a href="event.html" class="nav-link nav-toggle"> <i class="material-icons">event</i>
 									<span class="title">Event Management</span>
 								</a>
-							</li>
-							<li class="nav-item active open">
+							</li> -->
+							<li class="nav-item">
 								<a href="#" class="nav-link nav-toggle"> <i class="material-icons">person</i>
-									<span class="title">Professors</span><span class="selected"></span>
-									<span class="arrow open"></span>
+									<span class="title">Aspirantes</span> <span class="arrow"></span>
 								</a>
 								<ul class="sub-menu">
-									<li class="nav-item active">
+									<li class="nav-item">
 										<a href="<?=base_url('/index.php/User_List')?>" class="nav-link "> <span class="title">Lista de Aspirantes</span>
 										</a>
 									</li>
-									<li class="nav-item">
-										<a href="add_professor.html" class="nav-link "> <span class="title">Add Professor</span>
-										</a>
-									</li>
-									<li class="nav-item">
-										<a href="add_professor_bootstrap.html" class="nav-link "> <span class="title">Add Professor Bootstrap</span>
-										</a>
-									</li>
-									<li class="nav-item">
-										<a href="edit_professor.html" class="nav-link "> <span class="title">Edit Professor</span>
-										</a>
-									</li>
-									<li class="nav-item">
-										<a href="professor_profile.html" class="nav-link "> <span class="title">About Professor</span>
-										</a>
-									</li>
+
 								</ul>
 							</li>
-							<li class="nav-item">
+							<!-- <li class="nav-item">
 								<a href="#" class="nav-link nav-toggle"><i class="material-icons">group</i>
 									<span class="title">Students</span><span class="arrow"></span></a>
 								<ul class="sub-menu">
@@ -999,7 +985,7 @@
 											<i class="fa fa-volume-up"></i> Item 3 </a>
 									</li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 				</div>
